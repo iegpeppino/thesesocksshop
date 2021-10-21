@@ -193,6 +193,18 @@ h3 {
     #nav-title{
         margin: 10px 0 10px 0;
     }
+
+    .tp-container{
+        flex-direction: column;
+    }
+    .tp-title h2{
+        font-size: 1.5rem;
+    }
+    .car-container{
+        width: 100%;
+    }
+
+    
 }
 
 #nav-title{
