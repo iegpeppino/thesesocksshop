@@ -1,0 +1,207 @@
+main{
+    min-height: 80vh;
+    max-width: 100vw;
+    
+    
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-image: url('./wallpaper.png');
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+mark {
+    background: linear-gradient(-100deg, rgba(0,0,0,0.3), rgba(0,0,0,0.2), rgba(0,0,0,0.1));
+    border-radius: 1em 0;
+    padding: .5rem;
+}
+
+#product-show{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.788);
+    justify-content: center;
+    align-items: center;
+}
+
+#product-details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-items: stretch;
+    
+}
+
+#add-review{
+    
+    align-self: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+}
+
+h2 {
+    font-size: 1.4rem;
+    padding: 0.5rem 0;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.rating span{
+    margin: 0.1rem;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+
+.tp-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.788);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.car-container{
+    flex: 70%;
+    border: 3px solid #5bc0de;
+}
+
+.tp-title{
+    flex:30%;
+}
+
+.tp-title h2{
+    padding-left: 10px;
+    font-size: 2.5rem;
+    line-height: 180%;
+    font-style: italic;
+    font-weight: bolder;
+    color: #131313;
+}
+
+.lt-products{
+    margin: 15px 0 10px 0;
+    padding: 15px 0px 15px 10px;
+    background-color: rgba(250,250,250,0.5);
+}
+
+.lt-products h1{
+    font-weight: bolder;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+#sc-title{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: rgba(250, 250, 250, 0.39);
+    margin: 30px 0;
+}
+
+#my-cart{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1)
+}
+
+#chk-steps{
+    width: 100vw;
+    background-color: rgba(230, 230, 230, 0.39);
+    padding: 4px 0 0 0;
+    position: relative;
+    left:-25%;
+}
+
+#shp-form{
+    width: 100vw;
+}
+
+
+/* .chk-steps{
+    background-color: rgba(250, 250, 250, 0.39);
+    width: 100vw;
+    position: relative;
+    left: -120%;
+} */
+
+.shipping-form{
+    border: ridge 1px #131313;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1)
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+  
+}
+
+
+.carousel{
+    flex: 70%;
+    background-image: url('./wallpaper2.jpg');
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: rgb(250,250,250);
+}
+.carousel-caption h4 span{
+    background-color: rgba(0,0,0, 0.3);
+}
+.carousel img {
+    display: block;
+    height: 300px;
+    padding: 30px;
+    margin: 45px;
+    border-radius: 55%;
+    background-color: rgba(255, 255, 255, 0.691);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel a{
+    margin: 0 auto;
+}
+
+@media (max-width: 990px){
+    .carousel-caption h2 {
+        font-size: 2.5vw;
+    }
+
+    #nav-title{
+        margin: 10px 0 10px 0;
+    }
+}
+
+#nav-title{
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.page-item{
+    background-color: rgba(250, 250, 250, 0.5);
+    border: solid 1px #1313130f ;
+    border-radius: 15%;
+}
