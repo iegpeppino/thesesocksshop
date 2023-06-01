@@ -8,7 +8,7 @@ La webapp tiene las siguientes caracteristicas :
    1. Carrito de compras 
    2. Formularios de datos del cliente y de envío 
    3. Integración de la API de PayPal para pagos 
-   4. Página de verificación de compras
+   4. Página de confirmación de compra
 * Creación de reseñas de productos.
 * Administración del inventario existente y adición de productos nuevos desde la misma app (sin tener que ingresar al django admin)
 * Barra de búsqueda de productos
